@@ -1,19 +1,20 @@
+import Menu from './app_components/menu.jsx';
+import About from './app_components/about.jsx';
+import Gallery from './app_components/gallery.jsx';
+import Specs from './app_components/specs.jsx';
+import Contact from './app_components/contact.jsx';
+import Footer from './app_components/footer.jsx';
+
 export default function App() {
   return (
 
-    <div>
-  
-        <p>menu -> home(top), about, gallery(images and videos), specs, contact</p>
-
-        <p> METRIX</p>
-        <p>about</p>
-        <p>gallery</p>
-        <p>specs</p>
-        <p>contact</p>
-        <p>footer</p>
-        
-
-      
+    <div className='p-5'>
+        <Menu />
+        <About />
+        <Gallery />
+        <Specs />
+        <Contact />
+        <Footer />      
     </div>
   )
 }
