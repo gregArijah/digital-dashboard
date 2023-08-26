@@ -1,10 +1,10 @@
 export default function Contact() {
     return(
-        <div>
+        <div className="opacity-20">
             <div className="text-lg text-center mb-3">CONTACT</div>            
             <div className="text-center space-y-3">
                 <p>Have questions? Need more information? Send me a message below.</p>
-                <form className="space-y-3 opacity-10">
+                <form className="space-y-3">
                     <div className="flex flex-col">
                         <label className="text-left">Name</label>
                         <input 
