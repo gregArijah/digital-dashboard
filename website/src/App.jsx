@@ -1,7 +1,19 @@
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      We outside!
-    </h1>
+
+    <div>
+  
+        <p>menu -> home(top), about, gallery(images and videos), specs, contact</p>
+
+        <p> METRIX</p>
+        <p>about</p>
+        <p>gallery</p>
+        <p>specs</p>
+        <p>contact</p>
+        <p>footer</p>
+        
+
+      
+    </div>
   )
 }
