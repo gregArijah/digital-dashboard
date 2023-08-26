@@ -9,7 +9,7 @@ import Footer from './app_components/footer.jsx';
 export default function App() {
   return (
 
-    <div className='bg-black text-gray-300'>
+    <div className='bg-black text-gray-300 h-screen'>
         <div className='p-5 md:hidden'>
             <section className='flex justify-between'>
               <Header />

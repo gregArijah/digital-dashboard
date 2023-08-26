@@ -1,8 +1,7 @@
 export default function Header() {
     return(
         <div>
-            <p>HEADER</p>
-            <p>LOGO</p>
+            <img src="/motometrix.png" className="h-32"></img>
         </div>
     )
 }
