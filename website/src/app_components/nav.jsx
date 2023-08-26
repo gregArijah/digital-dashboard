@@ -1,4 +1,4 @@
-export default function Menu() {
+export default function Nav() {
   return (
     <div className="text-right ">
         <p>home</p>
