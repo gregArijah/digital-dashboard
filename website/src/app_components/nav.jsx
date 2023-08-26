@@ -3,9 +3,9 @@ export default function Nav() {
     <div className="text-right ">
         <p>home</p>
         <p>about</p>
-        <p>gallery</p>
+        <p>gallery </p>
         <p>specs</p>
-        <p>contact</p>
+        <p>contact</p>     
     </div>
   )
 }
