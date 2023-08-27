@@ -19,10 +19,10 @@ export default function Gallery() {
                             modules={[Navigation, Pagination]}
                             spaceBetween={50}
                             slidesPerView={1}
-                            navigation
+                            // navigation
                             pagination={{ clickable: true }}
                         >
-                            <SwiperSlide><div className='flex flex-col pb-5'><img src='/images/build0.jpg' className='h-64 mx-auto'></img>dfhdfhdhdhd dhdhdhdhd   dhdhdhddhdhd   hddhdhdhdhdhdhd  dhddhdhdhddhdhd hdhdddhdhdhdhd </div></SwiperSlide>
+                            <SwiperSlide><div className='flex flex-col pb-5'><img src='/images/build0.jpg' className='h-64 mx-auto'></img>Slide 1</div></SwiperSlide>
                             <SwiperSlide><img src='/images/build1.jpg' className='h-64 mx-auto'></img>Slide 2</SwiperSlide>
                             <SwiperSlide><img src='/images/build2.jpg' className='h-64 mx-auto'></img>Slide 3</SwiperSlide>
                             <SwiperSlide><img src='/images/build3.jpg' className='h-64 mx-auto'></img>Slide 4</SwiperSlide>
@@ -53,10 +53,10 @@ export default function Gallery() {
                                 modules={[Navigation, Pagination]}
                                 spaceBetween={50}
                                 slidesPerView={1}
-                                navigation
+                                // navigation
                                 pagination={{ clickable: true }}
                             >
-                            <SwiperSlide className='flex flex-col items-center'><iframe src="https://player.vimeo.com/video/858225244?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="360" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="test_drive"></iframe>Slide 1</SwiperSlide>
+                            <SwiperSlide className='flex flex-col items-center'><div className='flex flex-col pb-5'><iframe src="https://player.vimeo.com/video/858225244?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="360" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="test_drive"></iframe>Slide 1</div></SwiperSlide>
                             <SwiperSlide className='flex flex-col items-center'><iframe src="https://player.vimeo.com/video/858314024?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="360" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="walk_around"></iframe>Slide 2</SwiperSlide>
                             <SwiperSlide className='flex flex-col items-center'><iframe src="https://player.vimeo.com/video/858225184?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="360" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="test_menus"></iframe>Slide 3</SwiperSlide>
                             <SwiperSlide className='flex flex-col items-center'><iframe src="https://player.vimeo.com/video/858225163?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="test_idle"></iframe>Slide 4</SwiperSlide>
