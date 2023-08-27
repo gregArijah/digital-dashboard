@@ -1,13 +1,12 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-  
-export default function Gallery() {
-    const numImages = 21;
-    const images = [];
+import { Navigation, Pagination } from 'swiper/modules';
 
-    for(let i = 0; i < numImages; i++) {
-        images.push(<SwiperSlide><img src={`/images/build${i}.jpg`}></img></SwiperSlide>)
-    }
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import '../ui_components/swiper.css'
+
+export default function Gallery() {
 
     return(
         <div>
@@ -16,10 +15,15 @@ export default function Gallery() {
                 <div className=''>
                     <p>IMAGES</p>
                         <Swiper
+                            className='my-pagination my-navigation'
+                            modules={[Navigation, Pagination]}
                             spaceBetween={50}
                             slidesPerView={1}
+                            navigation
+                            pagination={{ clickable: true }}
+
                         >
-                            <SwiperSlide><img src='/images/build0.jpg' className='h-64 mx-auto'></img>Slide 1</SwiperSlide>
+                            <SwiperSlide><div className='flex flex-col pb-5'><img src='/images/build0.jpg' className='h-64 mx-auto'></img>dfhdfhdhdhd dhdhdhdhd   dhdhdhddhdhd   hddhdhdhdhdhdhd  dhddhdhdhddhdhd hdhdddhdhdhdhd </div></SwiperSlide>
                             <SwiperSlide><img src='/images/build1.jpg' className='h-64 mx-auto'></img>Slide 2</SwiperSlide>
                             <SwiperSlide><img src='/images/build2.jpg' className='h-64 mx-auto'></img>Slide 3</SwiperSlide>
                             <SwiperSlide><img src='/images/build3.jpg' className='h-64 mx-auto'></img>Slide 4</SwiperSlide>
