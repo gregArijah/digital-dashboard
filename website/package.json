@@ -2,7 +2,7 @@
   "name": "motometrix",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gregarijah.github.io/digital-dashboard/website/",
+  "homepage": "https://gregarijah.github.io/digital-dashboard/",
   "type": "module",
   "scripts": {
     "dev": "vite",
