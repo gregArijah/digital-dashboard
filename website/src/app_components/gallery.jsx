@@ -19,7 +19,7 @@ export default function Gallery() {
                             modules={[Navigation, Pagination]}
                             spaceBetween={50}
                             slidesPerView={1}
-                            // navigation
+                            //navigation
                             pagination={{ clickable: true }}
                         >
                             <SwiperSlide><div className='flex flex-col pb-5'><img src='https://drive.google.com/uc?id=1ItwW93XH7WVQRiuk9kZxDbY19WmZ3KsW' className='h-64 mx-auto'></img>Slide 1</div></SwiperSlide>
