@@ -22,27 +22,27 @@ export default function Gallery() {
                             // navigation
                             pagination={{ clickable: true }}
                         >
-                            <SwiperSlide><div className='flex flex-col pb-5'><img src='/images/build0.jpg' className='h-64 mx-auto'></img>Slide 1</div></SwiperSlide>
-                            <SwiperSlide><img src='/images/build1.jpg' className='h-64 mx-auto'></img>Slide 2</SwiperSlide>
-                            <SwiperSlide><img src='/images/build2.jpg' className='h-64 mx-auto'></img>Slide 3</SwiperSlide>
-                            <SwiperSlide><img src='/images/build3.jpg' className='h-64 mx-auto'></img>Slide 4</SwiperSlide>
-                            <SwiperSlide><img src='/images/build4.jpg' className='h-64 mx-auto'></img>Slide 5</SwiperSlide>
-                            <SwiperSlide><img src='/images/build5.jpg' className='h-64 mx-auto'></img>Slide 6</SwiperSlide>
-                            <SwiperSlide><img src='/images/build6.jpg' className='h-64 mx-auto'></img>Slide 6</SwiperSlide>
-                            <SwiperSlide><img src='/images/build7.jpg' className='h-64 mx-auto'></img>Slide 7</SwiperSlide>
-                            <SwiperSlide><img src='/images/build8.jpg' className='h-64 mx-auto'></img>Slide 8</SwiperSlide>
-                            <SwiperSlide><img src='/images/build9.jpg' className='h-64 mx-auto'></img>Slide 9</SwiperSlide>
-                            <SwiperSlide><img src='/images/build10.jpg' className='h-64 mx-auto'></img>Slide 10</SwiperSlide>
-                            <SwiperSlide><img src='/images/build11.jpg' className='h-64 mx-auto'></img>Slide 11</SwiperSlide>
-                            <SwiperSlide><img src='/images/build12.jpg' className='h-64 mx-auto'></img>Slide 12</SwiperSlide>
-                            <SwiperSlide><img src='/images/build13.jpg' className='h-64 mx-auto'></img>Slide 13</SwiperSlide>
-                            <SwiperSlide><img src='/images/build14.jpg' className='h-64 mx-auto'></img>Slide 14</SwiperSlide>
-                            <SwiperSlide><img src='/images/build15.jpg' className='h-64 mx-auto'></img>Slide 15</SwiperSlide>
-                            <SwiperSlide><img src='/images/build16.jpg' className='h-64 mx-auto'></img>Slide 16</SwiperSlide>
-                            <SwiperSlide><img src='/images/build17.jpg' className='h-64 mx-auto'></img>Slide 17</SwiperSlide>
-                            <SwiperSlide><img src='/images/build18.jpg' className='h-64 mx-auto'></img>Slide 18</SwiperSlide>
-                            <SwiperSlide><img src='/images/build19.jpg' className='h-64 mx-auto'></img>Slide 19</SwiperSlide>
-                            <SwiperSlide><img src='/images/build20.jpg' className='h-64 mx-auto'></img>Slide 20</SwiperSlide>
+                            <SwiperSlide><div className='flex flex-col pb-5'><img src='https://drive.google.com/uc?id=1ItwW93XH7WVQRiuk9kZxDbY19WmZ3KsW' className='h-64 mx-auto'></img>Slide 1</div></SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1B8KhGPdHOpUR_tFwD4Kgsy1Mm5SF3Bqf' className='h-64 mx-auto' />Slide 2</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1Tweh1GLDGWjJm7LL385igv4x0S6YcdEK' className='h-64 mx-auto' />Slide 3</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1jkgUYsJF1A-VAfJJNxS5OT9Kuk0Zn0gm' className='h-64 mx-auto' />Slide 4</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=14Tcca26QpErJBUtTsR0Y3thdZ6_-WukF' className='h-64 mx-auto' />Slide 5</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1UuLm5GYRsMeKnufWEGkVZRzBXjrDeND8' className='h-64 mx-auto' />Slide 6</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1oAv2ZkfiwX-2Lz7b5l7rEWHyDAmaqahG' className='h-64 mx-auto' />Slide 6</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1cSwrbu8YBbPzSfQ8Un-Pnf4RPZx0y8UU' className='h-64 mx-auto' />Slide 7</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1tapYznWyp1EpP3DXwFAvlfVqd7K672qr' className='h-64 mx-auto' />Slide 8</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=19nx8BlGQ6bzFi7ssANJwlAuik93-gXKO' className='h-64 mx-auto' />Slide 9</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1XHp0A9mOv0g8KPvG8WQk8QOukH_q8B1C' className='h-64 mx-auto' />Slide 10</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1tGfqw00Y3wV2kf_8_vg6NE9Ni51w4j_c' className='h-64 mx-auto' />Slide 11</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1cRye2Wwh5TsF0bcPO4ItghAoD1k0_9Kl' className='h-64 mx-auto' />Slide 12</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1K6Dn_yfwg1sEpZg_OweDc9iqx4IjocZn' className='h-64 mx-auto' />Slide 13</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1cId1RV9VujD8Hvz2U2lQw5F33y_EVEQt' className='h-64 mx-auto' />Slide 14</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1AJfoMDh5mJmJ-Yz9fsM2DmdgYO9N-5wl' className='h-64 mx-auto' />Slide 15</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1hBR8nS-hKXctsOLuZQIyYxIIMz647ZNU' className='h-64 mx-auto' />Slide 16</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1_d7KCUXfOdamszbpcs0oczZ3lmRJn2FJ' className='h-64 mx-auto' />Slide 17</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1pRJoxJljo-VaRziIETSCCiVZfixw_Cq5' className='h-64 mx-auto' />Slide 18</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1754ISMCx0CA9Z_nK8AYc8JFt1QofSjUv' className='h-64 mx-auto' />Slide 19</SwiperSlide>
+                            <SwiperSlide><img src='https://drive.google.com/uc?id=1Q2fp3GK7gBxfk-yb1X6nTumo_VnwWkcG' className='h-64 mx-auto' />Slide 20</SwiperSlide>
                         </Swiper>
 
                 </div>
