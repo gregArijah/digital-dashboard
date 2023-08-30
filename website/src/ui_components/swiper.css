@@ -17,8 +17,8 @@
     --swiper-pagination-bullet-horizontal-gap: 3.5px;
     --swiper-pagination-bullet-vertical-gap: 6px;
     --swiper-navigation-size: 44px;
-    --swiper-navigation-top-offset: 128px;
-    --swiper-navigation-sides-offset: 10px;
+    --swiper-navigation-top-offset: 290px;
+    --swiper-navigation-sides-offset: 24px;
     --swiper-navigation-color: rgb(241 245 249)
   }
 
@@ -40,7 +40,7 @@
     --swiper-pagination-bullet-horizontal-gap: 4px;
     --swiper-pagination-bullet-vertical-gap: 6px;
     --swiper-navigation-size: 44px;
-    --swiper-navigation-top-offset: 220px;
-    --swiper-navigation-sides-offset: 10px;
+    --swiper-navigation-top-offset: 475px;
+    --swiper-navigation-sides-offset: 24px;
     --swiper-navigation-color: rgb(241 245 249)
   }

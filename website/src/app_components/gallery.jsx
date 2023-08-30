@@ -11,7 +11,7 @@ export default function Gallery() {
     return(
         <div>
             <div className="text-lg text-center mb-3">GALLERY</div>            
-            <div className="text-center space-y-3">
+            <div className="text-center space-y-5">
                 <div className=''>
                     <p>IMAGES</p>
                         <Swiper
@@ -19,8 +19,8 @@ export default function Gallery() {
                             modules={[Navigation, Pagination]}
                             spaceBetween={50}
                             slidesPerView={1}
-                            //navigation
-                            pagination={{ clickable: true }}
+                            navigation
+                            pagination={{ clickable: true, dynamicBullets: true }}
                         >
                             <SwiperSlide><div className='flex flex-col pb-5'><img src='https://drive.google.com/uc?id=1ItwW93XH7WVQRiuk9kZxDbY19WmZ3KsW' className='h-64 mx-auto'></img>Slide 1</div></SwiperSlide>
                             <SwiperSlide><img src='https://drive.google.com/uc?id=1B8KhGPdHOpUR_tFwD4Kgsy1Mm5SF3Bqf' className='h-64 mx-auto' />Slide 2</SwiperSlide>
@@ -48,19 +48,19 @@ export default function Gallery() {
                 </div>
                 <div>
                     <p>VIDEOS</p> 
-                        <Swiper
+                    <Swiper
                                 className='my-videos'
                                 modules={[Navigation, Pagination]}
                                 spaceBetween={50}
                                 slidesPerView={1}
-                                // navigation
-                                pagination={{ clickable: true }}
+                                navigation
+                                pagination={{ clickable: true, dynamicBullets: true }}
                             >
                             <SwiperSlide className='flex flex-col items-center'><div className='flex flex-col pb-5'><iframe src="https://player.vimeo.com/video/858225244?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="360" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="test_drive"></iframe>Slide 1</div></SwiperSlide>
                             <SwiperSlide className='flex flex-col items-center'><iframe src="https://player.vimeo.com/video/858314024?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="360" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="walk_around"></iframe>Slide 2</SwiperSlide>
                             <SwiperSlide className='flex flex-col items-center'><iframe src="https://player.vimeo.com/video/858225184?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="360" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="test_menus"></iframe>Slide 3</SwiperSlide>
-                            <SwiperSlide className='flex flex-col items-center'><iframe src="https://player.vimeo.com/video/858225163?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="test_idle"></iframe>Slide 4</SwiperSlide>
-                            <SwiperSlide className='flex flex-col items-center'><iframe src="https://player.vimeo.com/video/858225218?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="test_revlimiter"></iframe>Slide 5</SwiperSlide>
+                            <SwiperSlide className='flex flex-col items-center'><iframe src="https://player.vimeo.com/video/858225163?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="360" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="test_idle"></iframe>Slide 4</SwiperSlide>
+                            <SwiperSlide className='flex flex-col items-center'><iframe src="https://player.vimeo.com/video/858225218?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="360" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="test_revlimiter"></iframe>Slide 5</SwiperSlide>
                             <SwiperSlide className='flex flex-col items-center'><iframe src="https://player.vimeo.com/video/858314055?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="360" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="test_launchcontrol"></iframe>Slide 6</SwiperSlide>
                         </Swiper>
                 </div>
@@ -68,3 +68,16 @@ export default function Gallery() {
         </div>
     )
 }
+
+
+<video controls width="250">
+  <source src="/media/cc0-videos/flower.webm" type="video/webm" />
+
+  <source src="https://drive.google.com/uc?id=1O5bkMyDxcedYVh68AweOTNSoN9TJyCBz" type="video/mp4" />
+
+  Download the
+  <a href="/media/cc0-videos/flower.webm">WEBM</a>
+  or
+  <a href="/media/cc0-videos/flower.mp4">MP4</a>
+  video.
+</video>
