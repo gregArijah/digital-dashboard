@@ -11,14 +11,26 @@ export default function App() {
 
     <div className='bg-black bg-fixed text-gray-300 h-max'>
         <div className='p-5 space-y-10 md:hidden'> 
-            <section className='flex justify-between'>
+            <section id='home' className='flex justify-between'>
               <Header />
               <Nav />
             </section>
-            <About />
-            <Gallery />
-            <Specs />
-            <Contact />
+
+            <section id='about'>
+              <About />
+            </section>
+
+            <section id='gallery'>
+              <Gallery />
+            </section>
+
+            <section id='specs'>
+              <Specs />
+            </section>
+
+            <section id='contact'>
+              <Contact />
+            </section>
             <Footer />
         </div>
     </div>

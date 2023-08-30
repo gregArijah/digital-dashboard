@@ -1,11 +1,11 @@
 export default function Nav() {
   return (
     <div className="text-right ">
-        <p>home</p>
-        <p>about</p>
-        <p>gallery </p>
-        <p>specs</p>
-        <p>contact</p>     
+        <p><a href='#home'>home</a></p>
+        <p><a href='#about'>about</a></p>
+        <p><a href='#gallery'>gallery</a></p>
+        <p><a href='#specs'>specs</a></p>
+        <p><a href='#contact'>contact</a></p>     
     </div>
   )
 }
