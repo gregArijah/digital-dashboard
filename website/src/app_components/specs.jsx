@@ -2,7 +2,7 @@ export default function Specs() {
     return(
         <div>
             <div className="text-lg text-center mb-3">SPECIFICATIONS</div>            
-            <div className="text-center space-y-3">
+            <div className="text-justify space-y-3">
                 <div>
                     <p>DASHBOARD</p>
                     <p>Controller - Arduino Nano MCU

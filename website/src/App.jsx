@@ -10,7 +10,7 @@ export default function App() {
   return (
 
     <div className='bg-black bg-fixed text-gray-300 h-max'>
-        <div className='p-5 space-y-10 md:hidden'> 
+        <div className='p-5 space-y-10'> 
             <section id='home' className='flex justify-between'>
               <Header />
               <Nav />
