@@ -30,7 +30,7 @@ export default function Specs() {
                 </div>
                 <div>
                     <p>BRAKES</p>
-                    <p>Initially the go kart was fitted with dual rear disc brakes originall from an italian made pocket bike. Once the CBR engine was installed, the CBR rear brake system was also installed on the go-kart.</p>
+                    <p>Initially the go kart was fitted with dual rear disc brakes taken from an italian made pocket bike. Once the CBR engine was installed, the CBR rear brake system was also installed on the go-kart.</p>
                 </div>
 
             </div>
