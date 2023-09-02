@@ -18,7 +18,7 @@
     --swiper-pagination-bullet-vertical-gap: 6px;
     --swiper-navigation-size: 44px;
     --swiper-navigation-top-offset: 270px;
-    --swiper-navigation-sides-offset: 24px;
+    --swiper-navigation-sides-offset: 0px;
     --swiper-navigation-color: rgb(241 245 249)
   }
 
@@ -41,6 +41,6 @@
     --swiper-pagination-bullet-vertical-gap: 6px;
     --swiper-navigation-size: 44px;
     --swiper-navigation-top-offset: 400px;
-    --swiper-navigation-sides-offset: 24px;
+    --swiper-navigation-sides-offset: 0px;
     --swiper-navigation-color: rgb(241 245 249)
   }
