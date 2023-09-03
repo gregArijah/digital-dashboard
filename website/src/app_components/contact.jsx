@@ -1,7 +1,7 @@
 export default function Contact() {
     return(
         <div className="md:mx-20">
-            <div className="text-lg text-center mb-3">CONTACT</div>            
+            <div className="text-lg text-center mb-3 font-bold">CONTACT</div>            
             <div className="text-center space-y-3">
                 <p>Have questions? Need more information? Send me a message below.</p>
             

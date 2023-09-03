@@ -10,10 +10,10 @@ export default function Gallery() {
 
     return(
         <div>
-            <div className="text-lg text-center mb-3">GALLERY</div>            
+            <div className="text-lg text-center mb-3 font-bold">GALLERY</div>            
             <div className="text-center space-y-5">
                 <div className=''>
-                    <p>IMAGES</p>
+                    <p className='font-bold'>IMAGES</p>
                         <Swiper
                             className='my-images'
                             modules={[Navigation, Pagination]}
@@ -29,7 +29,7 @@ export default function Gallery() {
                             <SwiperSlide><div className='flex flex-col pb-5'><img src='https://drive.google.com/uc?id=1jkgUYsJF1A-VAfJJNxS5OT9Kuk0Zn0gm' className='h-64 mx-auto' /><span className='mx-10 md:mx-20'>Slide 4: Almost fully assembled, here I'm building the steering system to conform to Ackermann steering geometry, which allows left and right wheels to trace different radii when cornering </span></div></SwiperSlide>
                             <SwiperSlide><div className='flex flex-col pb-5'><img src='https://drive.google.com/uc?id=1UuLm5GYRsMeKnufWEGkVZRzBXjrDeND8' className='h-64 mx-auto' /><span className='mx-10 md:mx-20'>Slide 5: At this point I took a break and gave myself a pat on the back, not bad..if I may say so myself.</span></div></SwiperSlide>
                             <SwiperSlide><div className='flex flex-col pb-5'><img src='https://drive.google.com/uc?id=1oAv2ZkfiwX-2Lz7b5l7rEWHyDAmaqahG' className='h-64 mx-auto' /><span className='mx-10 md:mx-20'>Slide 6: Not bad at all!</span></div></SwiperSlide>
-                            <SwiperSlide><div className='flex flex-col pb-5'><img src='https://drive.google.com/uc?id=1cSwrbu8YBbPzSfQ8Un-Pnf4RPZx0y8UU' className='h-64 mx-auto' /><span className='mx-10 md:mx-20'>Slide 7: Returned home one Saturday morning with a bagful of goodies from Sayal. Let make a dashboard. </span></div></SwiperSlide>
+                            <SwiperSlide><div className='flex flex-col pb-5'><img src='https://drive.google.com/uc?id=1cSwrbu8YBbPzSfQ8Un-Pnf4RPZx0y8UU' className='h-64 mx-auto' /><span className='mx-10 md:mx-20'>Slide 7: Returned home one Saturday morning with a bagful of goodies from the hobby store. Let make a dashboard. </span></div></SwiperSlide>
                             <SwiperSlide><div className='flex flex-col pb-5'><img src='https://drive.google.com/uc?id=1tapYznWyp1EpP3DXwFAvlfVqd7K672qr' className='h-64 mx-auto' /><span className='mx-10 md:mx-20'>Slide 8: Mocked up the system on a breadboard, and simulated the wheel and engine speed inputs by using a magnet attached to a spinning drill bit.</span></div></SwiperSlide>
                             <SwiperSlide><div className='flex flex-col pb-5'><img src='https://drive.google.com/uc?id=19nx8BlGQ6bzFi7ssANJwlAuik93-gXKO' className='h-64 mx-auto' /><span className='mx-10 md:mx-20'>Slide 9: Made a second dashboard to continue prototyping after the other one was permanantly soldered together.</span></div></SwiperSlide>
                             <SwiperSlide><div className='flex flex-col pb-5'><img src='https://drive.google.com/uc?id=1XHp0A9mOv0g8KPvG8WQk8QOukH_q8B1C' className='h-64 mx-auto' /><span className='mx-10 md:mx-20'>Slide 10: Moving from the breadboard to prototyping pcb. This was also my first time soldering, its alot like tig welding.</span></div></SwiperSlide>
@@ -47,7 +47,7 @@ export default function Gallery() {
 
                 </div>
                 <div>
-                    <p>VIDEOS</p> 
+                    <p className='font-bold'>VIDEOS</p> 
                         <Swiper
                                 className='my-videos'
                                 modules={[Navigation, Pagination]}
